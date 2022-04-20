@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity(), SearchView.OnQueryTextListener,
     }
 
     private fun showError() {
-        Toast.makeText(this,"Ocurrio un error", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this,"Ups, don´t know that breed", Toast.LENGTH_LONG).show()
     }
 
     override fun onQueryTextSubmit(query: String?): Boolean {
